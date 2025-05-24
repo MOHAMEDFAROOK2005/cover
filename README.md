@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:22-05-2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,10 +31,40 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cover</title>
+</head>
 
+<body>
+    <div
+        style="width: 500px; height: 700px; background-color: #9ce1e8; background-image: url('book.jpg'); background-size: cover; position: relative; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+            <h1
+                style="color: rgba(255, 149, 0, 0.436); font-size: 3.5em; font-weight: bold; margin-bottom: 10px;text-shadow: wheat;">
+                The
+                story of
+                the boy
+            </h1>
+            <!-- <h2 style="color: white; font-size: 0.8em; margin-bottom: 20px; font-style: italic;">Showcases a collection
+                of artworks that celebrate the ever-changing skyscape, and examines how artists have used the heavens to
+                convey meaning, emotion, and spirituality.</h2> -->
+            <p style="color: white; font-size: 1em; font-weight: bold; margin-top: auto;">written by Olivia Wilson</p>
+        </div>
+        <p style="color: white; font-size: 0.8em; font-style: italic; position: absolute; bottom: 10px; left: 10px;">
+            Extended Edition</p>
+    </div>
+</body>
+
+</html>
+```
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-05-14 214335.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
